@@ -1,6 +1,7 @@
 import sys
 import os
 import requests
+import torch
 
 # Resolve project root relative to this script
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -39,4 +40,4 @@ model.load_state_dict(torch.load(MODEL_PATH))
 train_loader, _, test_loader, _ = prepare_data(TRAIN_DATA_PATH, TEST_DATA_PATH)
 
 # Evaluate model
-evaluate_model(model, test_loader, train_loader, results_dir=DEMO_RESULTS_DIR)
+evaluate_model(model, test_loader, train_loader, results_dir=DEMO_RESULTS_DIR, verbose=True)
