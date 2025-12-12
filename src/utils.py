@@ -248,6 +248,7 @@ def evaluate_model(model, test_loader, train_loader, device='cpu', results_dir=N
 
     # save figure if directory given
     if results_dir is not None:
+        os.makedirs(results_dir, exist_ok=True)
         fig_path = os.path.join(results_dir, 'performance.png')
         figure.savefig(fig_path)
-        plt.show(block=False)
+    plt.show()
