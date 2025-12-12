@@ -4,7 +4,7 @@ This project demonstrates how to estimate heart rate using a 60 GHz FMCW radar a
 
 ## Project Overview
 
-This project explores contactless physiological monitoring using mm-wave radar. Specifically, the network created here estimates heart rate given a window of the unwrapped phase angle of a radar return signal. This input window is the result of preprocessing using classical application-agnostic DSP, and is the format of the radar data contained in this repository.
+This project explores contactless physiological monitoring using mm-wave radar. Specifically, the network created here estimates heart rate given a window of the unwrapped phase angle of a radar return signal. This input window is the result of preprocessing using classical application-agnostic DSP, and is the format of the radar data contained in this repository. All data used in the training of this model was self-collected by the author.
 
 ## Setup Instructions
 
