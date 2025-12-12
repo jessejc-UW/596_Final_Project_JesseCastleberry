@@ -73,6 +73,18 @@ Hyperparameters:
 - Epochs: 1000 (maximum, early-stopping will typically end the training run much sooner than this.)
 - Loss: `SmoothL1Loss()`
 
+## Acknowledgments
+
+This work draws on foundational concepts in radar systems and signal processing as presented in:
+
+- M. I. Skolnik (Ed.), *Radar Handbook*, 3rd ed., McGraw–Hill, 2008.
+
+Additional tools and resources used in this project include:
+
+- PyTorch for neural network training and inference  
+- NumPy and SciPy for numerical computation and signal processing  
+- Matplotlib for data visualization  
+
 ## License
 
 Released under the GNU GPLv3 License.
