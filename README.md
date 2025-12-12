@@ -50,6 +50,8 @@ Generated files:
     demo/results/
         performance.png
 
+![Model performance](results/20251211-191633/performance.png)
+
 ## Pre-trained Model
 
 The demo script will automatically download the pre-trained model. The checkpoint used in the demo script is downloaded directly from this repository, here:
