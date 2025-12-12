@@ -1,9 +1,6 @@
 import sys
 import os
 import requests
-import torch
-import torch.nn as nn
-import numpy as np
 
 # Resolve project root relative to this script
 script_dir = os.path.dirname(os.path.abspath(__file__))
